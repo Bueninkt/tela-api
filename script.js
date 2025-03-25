@@ -1,3 +1,8 @@
+'use strict'
+
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const logoShenlong = document.getElementById('logo-shenlong');
     const searchBox = document.querySelector('.search-box input');
@@ -7,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Redirecionamento ao clicar na logo do Shenlong
     logoShenlong.addEventListener('click', () => {
-        window.location.href = 'https://bueninkt.github.io/tela-inicial/'; // Substitua pela URL correta
+        window.location.href = ''; // Substitua pela URL correta
     });
 
     // Posiciona as sugestões logo abaixo da barra de pesquisa
